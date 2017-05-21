@@ -34,7 +34,7 @@ http:
 updater:
 
 # Discover some devices automatically
-discovery:
+# discovery:
 
 # Allows you to issue voice commands from the frontend in enabled browsers
 conversation:
@@ -48,7 +48,7 @@ logbook:
 # Track the sun
 sun:
 
-# Weather Prediction
+# random input
 sensor:
   platform: random
 
@@ -56,20 +56,6 @@ sensor:
 tts:
   platform: google
 
-light:
-  platform: limitlessled
-  bridges:
-    - host: 192.168.1.109
-      version: 4
-      groups:
-      - number: 1
-        name: Livingroom1
-      - number: 2
-        type: white
-        name: Livingroom2
-      - number: 3
-        type: rgbww
-        name: Livingroom3
-
+light: !include lights.yaml
 group: !include groups.yaml
 automation: !include automations.yaml

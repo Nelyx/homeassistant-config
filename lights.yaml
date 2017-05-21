@@ -1,8 +1,8 @@
-light:
   platform: limitlessled
   bridges:
-    - host: 192.168.1.109
-      version: 4
+    - host: 192.168.1.100
+      version: 5
+      port: 8899
       groups:
       - number: 1
         name: Livingroom1
