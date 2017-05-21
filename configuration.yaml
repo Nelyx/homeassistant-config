@@ -60,6 +60,7 @@ light:
   platform: limitlessled
   bridges:
     - host: 192.168.1.109
+      version: 4
       groups:
       - number: 1
         name: Livingroom1
