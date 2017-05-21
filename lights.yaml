@@ -5,7 +5,14 @@
       port: 8899
       groups:
       - number: 1
+        type: white
         name: Livingroom1
       - number: 2
         type: white
         name: Livingroom2
+      - number: 3
+        type: white
+        name: Livingroom3
+      - number: 4
+        type: white
+        name: Livingroom4
