@@ -7,7 +7,7 @@
     LivingRoomLights:
         name: Outside Lights
         entities:
-            - light.light.livingroom1
-            - light.light.livingroom2
-            - light.light.livingroom3
-            - light.light.livingroom4
+            - light.livingroom1
+            - light.livingroom2
+            - light.livingroom3
+            - light.livingroom4
